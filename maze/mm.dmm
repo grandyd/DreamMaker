@@ -1,13 +1,16 @@
 "a" = (/turf,/area)
 "b" = (/turf/wall,/area)
 "c" = (/turf/start,/area)
+"d" = (/turf/window,/area)
+"e" = (/turf/wall/secret_wall,/area)
+"f" = (/mob,/turf,/area)
 
 (1,1,1) = {"
 abaaaaaaaa
-abbbbbbbbb
-aaaaaaaabb
-aaaaaaacab
-aaaaabbbbb
+abbbdddbbb
+aafadaaabb
+aaaaeaacab
+aaabbbbbbb
 aaaaabaaaa
 aaaaaaaaaa
 aaaabbbbbb
