@@ -16,5 +16,7 @@
 // BEGIN_INCLUDE
 #include "maze\maze.dm"
 #include "maze\mm.dmm"
+#include "turf\floor.dm"
+#include "turf\wall.dm"
 // END_INCLUDE
 
