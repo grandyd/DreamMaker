@@ -7,13 +7,14 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "icons"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "maze.dm"
-#include "mm.dmm"
+#include "maze\maze.dm"
+#include "maze\mm.dmm"
 // END_INCLUDE
 

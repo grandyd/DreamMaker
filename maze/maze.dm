@@ -1,21 +1,3 @@
-turf
-	floor
-		icon ='floor.dmi'
-	wall
-		icon ='wall.dmi'
-		density=1
-		opacity=1
-
-		secret_wall
-			name="wall"
-			icon='wall.dmi'
-			density=0
-	start
-		icon ='start.dmi'
-	window
-		icon='window.dmi'
-		opacity=0
-		density=1
 mob
 	name="player"
 	icon ='player.dmi'
@@ -24,15 +6,27 @@ mob
 	icon='ian.dmi'
 mob
 	Login()
+		luminosity=1
 		name="Спозоранку"
 		world<<"Приветствую тебя, [usr]"
 		loc=locate(/turf/start)
 		..()
 mob
 	verb
+		ghost()
+			desc="Вы сможете ходить сквозь стены"
+			set name="Призрак"
+			if(density)
+				world<<"Теперь вы способны ходить сквозь стены"
+				density=0
+			else
+				world<<"Теперь вы не можете ходить сквозь стены"
+				density=1
 		smile()
+			set name="Смеяться"
 			world<<"[usr] расплывается в улыбке"
 		cry()
+			set name="Рыдать"
 			world<<"/his сердце разрывается от горя"
 world
 	fps = 20		// 25 frames per second
