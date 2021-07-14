@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1626187364
+LAST_COMPILE_TIME: 1626273148
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 513.1542
-WINDOW: maze.dm;maze.dme;mm.dmm;floor.dmi;ian.dmi;animal.dmi
-FILE: ian.dmi
+WINDOW: maze.dm;maze.dme;mm.dmm
+FILE: maze.dm
 */
 // END_INTERNALS
