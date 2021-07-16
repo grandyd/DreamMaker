@@ -1,10 +1,10 @@
 "a" = (/turf/floor,/area/space)
-"b" = (/obj/wall,/turf/floor,/area/space)
+"b" = (/turf/wall,/area/space)
 "c" = (/turf,/area/space)
-"d" = (/obj/window,/turf/floor,/area/space)
+"d" = (/turf/window,/area/space)
 "e" = (/obj/torch,/turf/floor,/area/space)
 "f" = (/mob,/turf/floor,/area/space)
-"g" = (/obj/wall/secret_wall,/turf/floor,/area/space)
+"g" = (/turf/wall/secret_wall,/area/space)
 
 (1,1,1) = {"
 abcccccccc

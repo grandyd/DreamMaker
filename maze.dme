@@ -7,6 +7,7 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "area"
 #define FILE_DIR "icons"
 // END_FILE_DIR
 
@@ -14,9 +15,11 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include "area\space.dm"
 #include "maze\maze.dm"
 #include "maze\mm.dmm"
+#include "obj\torch.dm"
+#include "obj\wall.dm"
 #include "turf\floor.dm"
-#include "turf\wall.dm"
 // END_INCLUDE
 
