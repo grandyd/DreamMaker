@@ -3,7 +3,7 @@
 "c" = (/turf,/area/space)
 "d" = (/obj/window,/turf/floor,/area/space)
 "e" = (/obj/torch,/turf/floor,/area/space)
-"f" = (/mob,/turf/floor,/area/space)
+"f" = (/mob/Ian,/turf/floor,/area/space)
 "g" = (/obj/wall/secret_wall,/turf/floor,/area/space)
 
 (1,1,1) = {"

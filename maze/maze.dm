@@ -39,6 +39,26 @@ mob
 			set name="Обнять"
 			set src in view()
 			view()<<"[usr] обнял [src]"
+		whisper(M as mob in view(1),msg as text)
+			set name="Шептать"
+			M<<"[usr] шепчет вам: '[msg]'"
+			usr<<"Вы прошептали [M]:'[msg]'"
+		wink()
+			set src in view()
+			view() << "[usr] winks at [src]."
+		kill(M as mob)
+			set desc="Эта кнопочка убивает моба"
+			..()
+			del M
+mob
+	Ian
+		name="Ян"
+		icon='animal.dmi'
+		icon_state="corgi"
+		wink()
+			..()
+			usr<<"[src] шепчет, 'drow cigam!'"
+
 obj/torch/verb
 	use()
 		set name="Использовать"
