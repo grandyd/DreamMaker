@@ -3,6 +3,7 @@ obj
         icon='torch.dmi'
         icon_state="fired"
         luminosity=3
+        desc="Это факел, который может служить источником света"
 obj/torch/verb/get()
     set src in usr.loc
     loc=usr

@@ -2,19 +2,27 @@ mob
 	name="player"
 	icon ='player.dmi'
 mob
-	name="Ian"
-	icon='animal.dmi'
-	icon_state = "corgi"
-mob
 	Login()
 		name="Спозоранку"
 		world<<"Приветствую тебя, [usr]"
 		..()
 mob
 	verb
+		say(msg as text)
+			set name="Говорить"
+			view() << "[usr] говорит: '[msg]'"
+		set_name_mob(N as text)
+			set name="Изменить имя кому то"
+			set desc="Вы измените имя другому персонажу"
+			set src in view(1)
+			name=N
+		set_name(N as text)
+			set name="Изменить своё имя"
+			set desc="(\"новое имя\") Измените своё имя"
+			name=N
 		ghost()
 			set name="Призрак"
-			desc="Вы сможете ходить сквозь стены"
+			set desc="Вы сможете ходить сквозь стены"
 			if(density)
 				world<<"Теперь вы способны ходить сквозь стены"
 				density=0
@@ -23,14 +31,14 @@ mob
 				density=1
 		smile()
 			set name="Смеяться"
-			world<<"[usr] расплывается в улыбке"
+			view()<<"[usr] расплывается в улыбке"
 		cry()
 			set name="Рыдать"
-			world<<"/his сердце разрывается от горя"
+			view()<<"Его сердце разрывается от горя"
 		hug()
 			set name="Обнять"
 			set src in view()
-			world<<"[usr] обнял [src]"
+			view()<<"[usr] обнял [src]"
 obj/torch/verb
 	use()
 		set name="Использовать"

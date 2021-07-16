@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1626359058
+LAST_COMPILE_TIME: 1626447122
 DIR: area icons maze obj turf 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 513.1542
 WINDOW: maze\maze.dm;maze.dme;area\space.dmi;icons\wall.dmi;obj\wall.dm;area\space.dm;maze\mm.dmm;obj\torch.dm
-FILE: obj\torch.dm
+FILE: obj\wall.dm
 */
 // END_INTERNALS

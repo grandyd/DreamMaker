@@ -1,5 +1,10 @@
 obj
+	verb
+		examine()
+			set src in view(1)
+			world<<"[desc]"
 	wall
+		desc="Металлическая стена"
 		icon ='icons/wall.dmi'
 		density=1
 		opacity=1
